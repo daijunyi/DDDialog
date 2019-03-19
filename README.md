@@ -9,6 +9,6 @@
 ##  通过cocoaPods 安装
 
 ```shell
-pod 'DDDialog', '~> 1.0.1'
+pod 'DDDialog', '~> 1.0.3'
 ```
 
