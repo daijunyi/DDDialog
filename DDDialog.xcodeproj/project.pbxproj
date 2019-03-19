@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A74C6BA84C2CE40A654F05D /* libPods-DDDialog.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E92FD8E7F287344AEF98D196 /* libPods-DDDialog.a */; };
+		63D1889622412DD100CD6F01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1889522412DD100CD6F01 /* AppDelegate.m */; };
+		63D1889922412DD100CD6F01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D1889822412DD100CD6F01 /* ViewController.m */; };
+		63D1889C22412DD100CD6F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1889A22412DD100CD6F01 /* Main.storyboard */; };
+		63D1889E22412DD200CD6F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D1889D22412DD200CD6F01 /* Assets.xcassets */; };
+		63D188A122412DD200CD6F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1889F22412DD200CD6F01 /* LaunchScreen.storyboard */; };
+		63D188A422412DD200CD6F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D188A322412DD200CD6F01 /* main.m */; };
+		63D188B922412F6000CD6F01 /* DDDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D188B822412F6000CD6F01 /* DDDialog.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63D1889122412DD100CD6F01 /* DDDialog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDDialog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D1889422412DD100CD6F01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63D1889522412DD100CD6F01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63D1889722412DD100CD6F01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63D1889822412DD100CD6F01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63D1889B22412DD100CD6F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D1889D22412DD200CD6F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63D188A022412DD200CD6F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63D188A222412DD200CD6F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D188A322412DD200CD6F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63D188B722412F6000CD6F01 /* DDDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDDialog.h; sourceTree = "<group>"; };
+		63D188B822412F6000CD6F01 /* DDDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDialog.m; sourceTree = "<group>"; };
+		8731C2365D1615C2754AC51C /* Pods-DDDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDialog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDDialog/Pods-DDDialog.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B21F897952BD218FB59770 /* Pods-DDDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDialog.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDDialog/Pods-DDDialog.release.xcconfig"; sourceTree = "<group>"; };
+		E92FD8E7F287344AEF98D196 /* libPods-DDDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDDialog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D1888E22412DD100CD6F01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A74C6BA84C2CE40A654F05D /* libPods-DDDialog.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D1888822412DD100CD6F01 = {
+			isa = PBXGroup;
+			children = (
+				63D1889322412DD100CD6F01 /* DDDialog */,
+				63D1889222412DD100CD6F01 /* Products */,
+				9AA9AD640CA99F807BBB295C /* Pods */,
+				C98A57B655C8DBC236DA3311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		63D1889222412DD100CD6F01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D1889122412DD100CD6F01 /* DDDialog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D1889322412DD100CD6F01 /* DDDialog */ = {
+			isa = PBXGroup;
+			children = (
+				63D188AA22412E4000CD6F01 /* DDDialog */,
+				63D1889422412DD100CD6F01 /* AppDelegate.h */,
+				63D1889522412DD100CD6F01 /* AppDelegate.m */,
+				63D1889722412DD100CD6F01 /* ViewController.h */,
+				63D1889822412DD100CD6F01 /* ViewController.m */,
+				63D1889A22412DD100CD6F01 /* Main.storyboard */,
+				63D1889D22412DD200CD6F01 /* Assets.xcassets */,
+				63D1889F22412DD200CD6F01 /* LaunchScreen.storyboard */,
+				63D188A222412DD200CD6F01 /* Info.plist */,
+				63D188A322412DD200CD6F01 /* main.m */,
+			);
+			path = DDDialog;
+			sourceTree = "<group>";
+		};
+		63D188AA22412E4000CD6F01 /* DDDialog */ = {
+			isa = PBXGroup;
+			children = (
+				63D188B722412F6000CD6F01 /* DDDialog.h */,
+				63D188B822412F6000CD6F01 /* DDDialog.m */,
+			);
+			path = DDDialog;
+			sourceTree = "<group>";
+		};
+		9AA9AD640CA99F807BBB295C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8731C2365D1615C2754AC51C /* Pods-DDDialog.debug.xcconfig */,
+				C2B21F897952BD218FB59770 /* Pods-DDDialog.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C98A57B655C8DBC236DA3311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E92FD8E7F287344AEF98D196 /* libPods-DDDialog.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D1889022412DD100CD6F01 /* DDDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D188A722412DD200CD6F01 /* Build configuration list for PBXNativeTarget "DDDialog" */;
+			buildPhases = (
+				7437715135B3582CD5035B91 /* [CP] Check Pods Manifest.lock */,
+				63D1888D22412DD100CD6F01 /* Sources */,
+				63D1888E22412DD100CD6F01 /* Frameworks */,
+				63D1888F22412DD100CD6F01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDDialog;
+			productName = DDDialog;
+			productReference = 63D1889122412DD100CD6F01 /* DDDialog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D1888922412DD100CD6F01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = DD;
+				TargetAttributes = {
+					63D1889022412DD100CD6F01 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 63D1888C22412DD100CD6F01 /* Build configuration list for PBXProject "DDDialog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D1888822412DD100CD6F01;
+			productRefGroup = 63D1889222412DD100CD6F01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D1889022412DD100CD6F01 /* DDDialog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D1888F22412DD100CD6F01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D188A122412DD200CD6F01 /* LaunchScreen.storyboard in Resources */,
+				63D1889E22412DD200CD6F01 /* Assets.xcassets in Resources */,
+				63D1889C22412DD100CD6F01 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7437715135B3582CD5035B91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDDialog-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D1888D22412DD100CD6F01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1889922412DD100CD6F01 /* ViewController.m in Sources */,
+				63D188B922412F6000CD6F01 /* DDDialog.m in Sources */,
+				63D188A422412DD200CD6F01 /* main.m in Sources */,
+				63D1889622412DD100CD6F01 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63D1889A22412DD100CD6F01 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D1889B22412DD100CD6F01 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63D1889F22412DD200CD6F01 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D188A022412DD200CD6F01 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D188A522412DD200CD6F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63D188A622412DD200CD6F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D188A822412DD200CD6F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8731C2365D1615C2754AC51C /* Pods-DDDialog.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58C635RJSL;
+				INFOPLIST_FILE = DDDialog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijunyi.DDDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63D188A922412DD200CD6F01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B21F897952BD218FB59770 /* Pods-DDDialog.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 58C635RJSL;
+				INFOPLIST_FILE = DDDialog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.daijunyi.DDDialog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D1888C22412DD100CD6F01 /* Build configuration list for PBXProject "DDDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D188A522412DD200CD6F01 /* Debug */,
+				63D188A622412DD200CD6F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D188A722412DD200CD6F01 /* Build configuration list for PBXNativeTarget "DDDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D188A822412DD200CD6F01 /* Debug */,
+				63D188A922412DD200CD6F01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D1888922412DD100CD6F01 /* Project object */;
+}
