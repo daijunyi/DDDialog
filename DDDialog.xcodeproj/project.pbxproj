@@ -14,7 +14,7 @@
 		63D1889E22412DD200CD6F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D1889D22412DD200CD6F01 /* Assets.xcassets */; };
 		63D188A122412DD200CD6F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1889F22412DD200CD6F01 /* LaunchScreen.storyboard */; };
 		63D188A422412DD200CD6F01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D188A322412DD200CD6F01 /* main.m */; };
-		63D188B922412F6000CD6F01 /* DDDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D188B822412F6000CD6F01 /* DDDialog.m */; };
+		63D188BE22413D9300CD6F01 /* DDDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D188BD22413D9300CD6F01 /* DDDialog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		63D188A022412DD200CD6F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63D188A222412DD200CD6F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D188A322412DD200CD6F01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		63D188B722412F6000CD6F01 /* DDDialog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDDialog.h; sourceTree = "<group>"; };
-		63D188B822412F6000CD6F01 /* DDDialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDDialog.m; sourceTree = "<group>"; };
+		63D188BC22413D9300CD6F01 /* DDDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDialog.h; sourceTree = "<group>"; };
+		63D188BD22413D9300CD6F01 /* DDDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDialog.m; sourceTree = "<group>"; };
 		8731C2365D1615C2754AC51C /* Pods-DDDialog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDialog.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DDDialog/Pods-DDDialog.debug.xcconfig"; sourceTree = "<group>"; };
 		C2B21F897952BD218FB59770 /* Pods-DDDialog.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDDialog.release.xcconfig"; path = "Pods/Target Support Files/Pods-DDDialog/Pods-DDDialog.release.xcconfig"; sourceTree = "<group>"; };
 		E92FD8E7F287344AEF98D196 /* libPods-DDDialog.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDDialog.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,7 +50,8 @@
 		63D1888822412DD100CD6F01 = {
 			isa = PBXGroup;
 			children = (
-				63D1889322412DD100CD6F01 /* DDDialog */,
+				63D188BB22413D9300CD6F01 /* DDDialog */,
+				63D1889322412DD100CD6F01 /* Demo */,
 				63D1889222412DD100CD6F01 /* Products */,
 				9AA9AD640CA99F807BBB295C /* Pods */,
 				C98A57B655C8DBC236DA3311 /* Frameworks */,
@@ -65,10 +66,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		63D1889322412DD100CD6F01 /* DDDialog */ = {
+		63D1889322412DD100CD6F01 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				63D188AA22412E4000CD6F01 /* DDDialog */,
 				63D1889422412DD100CD6F01 /* AppDelegate.h */,
 				63D1889522412DD100CD6F01 /* AppDelegate.m */,
 				63D1889722412DD100CD6F01 /* ViewController.h */,
@@ -79,14 +79,14 @@
 				63D188A222412DD200CD6F01 /* Info.plist */,
 				63D188A322412DD200CD6F01 /* main.m */,
 			);
-			path = DDDialog;
+			path = Demo;
 			sourceTree = "<group>";
 		};
-		63D188AA22412E4000CD6F01 /* DDDialog */ = {
+		63D188BB22413D9300CD6F01 /* DDDialog */ = {
 			isa = PBXGroup;
 			children = (
-				63D188B722412F6000CD6F01 /* DDDialog.h */,
-				63D188B822412F6000CD6F01 /* DDDialog.m */,
+				63D188BC22413D9300CD6F01 /* DDDialog.h */,
+				63D188BD22413D9300CD6F01 /* DDDialog.m */,
 			);
 			path = DDDialog;
 			sourceTree = "<group>";
@@ -201,7 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63D1889922412DD100CD6F01 /* ViewController.m in Sources */,
-				63D188B922412F6000CD6F01 /* DDDialog.m in Sources */,
+				63D188BE22413D9300CD6F01 /* DDDialog.m in Sources */,
 				63D188A422412DD200CD6F01 /* main.m in Sources */,
 				63D1889622412DD100CD6F01 /* AppDelegate.m in Sources */,
 			);
